@@ -1,8 +1,8 @@
 # Write your code here.
 def line(deli)
+  name = 0
   if deli != []
-    name = 0
-    for deli.each do |name| 
+    for deli.each do |name|
       name +=
       puts "The line is currently: #{name}"
   else
