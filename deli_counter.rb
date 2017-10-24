@@ -15,7 +15,7 @@ end
 
 def now_serving(deli_line)
   if deli_line != []
-    puts "Currently serving #{deli_line.first}."
+    puts "Currently serving #{deli_line[0]}."
   else
     puts "There is nobody waiting to be served!"
   end
