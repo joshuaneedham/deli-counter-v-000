@@ -1,4 +1,4 @@
 # Write your code here.
-def line(array)
-  
+def line
+  puts "The line is currently empty."
 end
