@@ -1,7 +1,7 @@
 # Write your code here.
 def line(deli_line)
   if deli_line != []
-    new_line = deli_line.map.with_index { |name, index| "#{index + 1}. #{name}" }
+    new_line.join = deli_line.map.with_index { |name, index| "#{index + 1}. #{name}" }
     puts "The line is currently: #{new_line}"
   else
     puts "The line is currently empty."
