@@ -20,5 +20,9 @@ def take_a_number(deli_line, name)
 end
 
 def now_serving
+  if condition
 
+  else
+    puts "There is nobody waiting to be served!"
+  end
 end
