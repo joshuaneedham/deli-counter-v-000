@@ -1,6 +1,6 @@
 # Write your code here.
 def line(deli)
-  if deli != 0
+  if deli != []
     deli.map { |name| puts "The line is currently: #{index - 1} #{name}"}
   else
     puts "The line is currently empty."
