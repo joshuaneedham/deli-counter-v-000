@@ -10,8 +10,7 @@ end
 
 def take_a_number(deli_line, name)
   if deli_line != []
-    new_line = deli_line.map.with_index { |name, index| "#{name}" "#{index + 1}" }
-    puts "Welcome, #{name}. You are number #{index} in line."
+    puts "Welcome, #{name}. You are number #{index + 1} in line."
   else
     puts "The line is currently empty."
   end
