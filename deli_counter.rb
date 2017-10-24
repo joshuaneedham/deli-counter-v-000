@@ -14,5 +14,9 @@ def take_a_number(deli_line, name)
 end
 
 def now_serving(deli_line)
-  puts "#{deli_line.first}"
+  if deli_line != []
+    puts "Currently serving #{deli_line.first}"
+  else
+    puts "There is nobody waiting to be served!"
+  end
 end
