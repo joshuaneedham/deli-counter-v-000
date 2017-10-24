@@ -10,6 +10,7 @@ end
 
 def take_a_number(deli_line, name)
   if deli_line != []
+    name << deli_line
     puts "Welcome #{name}. You are number #{deli_line.last[index + 1]} in line."
   else
     puts "The line is currently empty."
