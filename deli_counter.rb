@@ -10,12 +10,15 @@ end
 
 def take_a_number(deli_line, name)
   if deli_line != []
-    puts "Welcome, #{name}. You are number #{index} in line."
+    #add new person and give them their line number
+    #new_line = deli_line.map.with_index { |name, index| "#{index + 1} #{name}"}
+    deli_line.push(name)
+    puts "Welcome #{name}. You are number #{deli_line[index] }"
   else
     puts "The line is currently empty."
   end
 end
 
 def now_serving
-
+  
 end
