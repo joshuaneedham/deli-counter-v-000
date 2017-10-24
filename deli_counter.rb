@@ -2,8 +2,8 @@
 def line(deli)
   name = 0
   if deli != []
-    for deli.each do |name|
-      puts "The line is currently: #{name}"
+    for deli.each { |name|
+      puts "The line is currently: #{name}" }
     end
   else
     puts "The line is currently empty."
