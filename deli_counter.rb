@@ -3,8 +3,8 @@ def line(deli)
   name = 0
   if deli != []
     for deli.each do |name|
-      name +=
       puts "The line is currently: #{name}"
+    end
   else
     puts "The line is currently empty."
   end
